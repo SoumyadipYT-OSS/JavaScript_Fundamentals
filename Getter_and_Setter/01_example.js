@@ -7,7 +7,6 @@ class Bicycle {
     get brand() {
         return this._brand;
     }
-
     set brand(newBrand) {
         this._brand = newBrand;
     }
@@ -15,7 +14,6 @@ class Bicycle {
     get model() {
         return this._model;
     }
-
     set model(newModel) {
         this._model = newModel;
     }
