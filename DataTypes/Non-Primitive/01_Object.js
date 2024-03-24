@@ -14,3 +14,7 @@ object_name.foodName = "Mango Shake";
 object_name.fruit = "Mango";
 console.log(object_name);
 console.log(object_name.foodName);
+
+for (let prop in object_name) {
+    console.log(prop + ":" + object_name[prop]);
+}
