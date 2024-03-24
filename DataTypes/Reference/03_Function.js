@@ -5,4 +5,4 @@ function msg() {
 }
 
 console.log(typeof msg);    // Output: function
-log(msg);    // Output: JavaScript programming
+console.log(msg);   // Output: [Function: msg]
