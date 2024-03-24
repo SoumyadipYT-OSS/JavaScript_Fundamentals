@@ -9,6 +9,7 @@ Person.prototype = { age: 30 };
 
 const person2 = new Person();
 
+
 console.log(person1);
 console.log(person1.age);
 console.log(person2);
