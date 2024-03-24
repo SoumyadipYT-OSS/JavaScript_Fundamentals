@@ -20,11 +20,11 @@ class Bicycle {
 }
 
 
-let myBike = new Bicycle('Trek', 'Domane');
-console.log(myBike.brand); // Outputs: Trek
-console.log(myBike.model); // Outputs: Domane
+let myBike = new Bicycle('Tata', 'Stryder');
+console.log(myBike.brand); // Outputs: Tata
+console.log(myBike.model); // Outputs: Stryder
 
-myBike.brand = 'Specialized';
-myBike.model = 'Roubaix';
-console.log(myBike.brand); // Outputs: Specialized
-console.log(myBike.model); // Outputs: Roubaix
+myBike.brand = 'Bajaj';
+myBike.model = 'Dominar';
+console.log(myBike.brand); // Outputs: Bajaj
+console.log(myBike.model); // Outputs: Dominar
