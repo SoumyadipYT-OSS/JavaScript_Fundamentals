@@ -11,5 +11,6 @@ class Person {
     }
 }
 
+
 const person1 = new Person('Soumyadip', 'Majumder');
 person1.display();
