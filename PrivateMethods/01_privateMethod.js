@@ -1,7 +1,7 @@
 class Person {
-    constructor(fN, LN) {
+    constructor(fN, lN) {
         this.fN = fN;
-        this.LN = LN;
+        this.lN = lN;
     }
     #fullName() {
         return `${this.fN} ${this.LN}`;
