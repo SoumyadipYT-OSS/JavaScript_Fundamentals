@@ -7,6 +7,10 @@ class Person {
 }
 
 class Student extends Person {
+    constructor(name) {
+        console.log("Student class constructor");
+        super(name);
+    }
     method1() {
         console.log("Learning JavaScript is fun!");
     }
@@ -14,5 +18,5 @@ class Student extends Person {
 
 
 const s1 = new Student("Soumyadip");
-s1.greet(); // Outputs: Hello, my name is Soumyadip
-s1.method1(); // Outputs: Learning JavaScript is fun!
+// to access all the methods in Student class
+s1.greet();
