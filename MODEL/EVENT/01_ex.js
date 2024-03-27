@@ -14,3 +14,13 @@ let btn1 = document.getElementById("btn1");
 btn1.addEventListener('click', function(event){
     console.log("Button using Event Listener clicked!" + event.type);
 })
+
+
+let btn2 = document.getElementById("btn2");
+function buttonCustomize() {
+    console.log("Button3 clicked From function!");
+    // adding color and animation attributes to the button after clicking
+    btn2.style.color = "red";
+    btn2.style.animation = "animate 1s infinite";
+}
+btn2.addEventListener('click', buttonCustomize);
